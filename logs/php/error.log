@@ -1,0 +1,53 @@
+[02-Oct-2020 14:39:14 UTC] PHP Warning:  chmod(): No such file or directory in C:\Users\User\Local Sites\elementor\app\public\wp-admin\includes\class-wp-filesystem-direct.php on line 173
+[02-Oct-2020 14:39:14 UTC] PHP Stack trace:
+[02-Oct-2020 14:39:14 UTC] PHP   1. {main}() C:\Users\User\Local Sites\elementor\app\public\wp-admin\themes.php:0
+[02-Oct-2020 14:39:14 UTC] PHP   2. require_once() C:\Users\User\Local Sites\elementor\app\public\wp-admin\themes.php:10
+[02-Oct-2020 14:39:14 UTC] PHP   3. do_action() C:\Users\User\Local Sites\elementor\app\public\wp-admin\admin.php:259
+[02-Oct-2020 14:39:14 UTC] PHP   4. WP_Hook->do_action() C:\Users\User\Local Sites\elementor\app\public\wp-includes\plugin.php:478
+[02-Oct-2020 14:39:14 UTC] PHP   5. WP_Hook->apply_filters() C:\Users\User\Local Sites\elementor\app\public\wp-includes\class-wp-hook.php:311
+[02-Oct-2020 14:39:14 UTC] PHP   6. TGM_Plugin_Activation->install_plugins_page() C:\Users\User\Local Sites\elementor\app\public\wp-includes\class-wp-hook.php:287
+[02-Oct-2020 14:39:14 UTC] PHP   7. TGM_Plugin_Activation->do_plugin_install() C:\Users\User\Local Sites\elementor\app\public\wp-content\themes\oceanwp\inc\plugins\class-tgm-plugin-activation.php:658
+[02-Oct-2020 14:39:14 UTC] PHP   8. Plugin_Upgrader->install() C:\Users\User\Local Sites\elementor\app\public\wp-content\themes\oceanwp\inc\plugins\class-tgm-plugin-activation.php:806
+[02-Oct-2020 14:39:14 UTC] PHP   9. Plugin_Upgrader->run() C:\Users\User\Local Sites\elementor\app\public\wp-admin\includes\class-plugin-upgrader.php:137
+[02-Oct-2020 14:39:14 UTC] PHP  10. Plugin_Upgrader->unpack_package() C:\Users\User\Local Sites\elementor\app\public\wp-admin\includes\class-wp-upgrader.php:779
+[02-Oct-2020 14:39:14 UTC] PHP  11. unzip_file() C:\Users\User\Local Sites\elementor\app\public\wp-admin\includes\class-wp-upgrader.php:328
+[02-Oct-2020 14:39:14 UTC] PHP  12. _unzip_file_ziparchive() C:\Users\User\Local Sites\elementor\app\public\wp-admin\includes\file.php:1466
+[02-Oct-2020 14:39:14 UTC] PHP  13. WP_Filesystem_Direct->put_contents() C:\Users\User\Local Sites\elementor\app\public\wp-admin\includes\file.php:1601
+[02-Oct-2020 14:39:14 UTC] PHP  14. WP_Filesystem_Direct->chmod() C:\Users\User\Local Sites\elementor\app\public\wp-admin\includes\class-wp-filesystem-direct.php:86
+[02-Oct-2020 14:39:14 UTC] PHP  15. chmod() C:\Users\User\Local Sites\elementor\app\public\wp-admin\includes\class-wp-filesystem-direct.php:173
+[02-Oct-2020 14:41:13 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\User\Local Sites\elementor\app\public\wp-includes\script-loader.php:1927) in C:\Users\User\Local Sites\elementor\app\public\wp-includes\pluggable.php on line 1296
+[02-Oct-2020 14:41:13 UTC] PHP Stack trace:
+[02-Oct-2020 14:41:13 UTC] PHP   1. {main}() C:\Users\User\Local Sites\elementor\app\public\wp-admin\themes.php:0
+[02-Oct-2020 14:41:13 UTC] PHP   2. require_once() C:\Users\User\Local Sites\elementor\app\public\wp-admin\themes.php:10
+[02-Oct-2020 14:41:13 UTC] PHP   3. do_action() C:\Users\User\Local Sites\elementor\app\public\wp-admin\admin.php:259
+[02-Oct-2020 14:41:13 UTC] PHP   4. WP_Hook->do_action() C:\Users\User\Local Sites\elementor\app\public\wp-includes\plugin.php:478
+[02-Oct-2020 14:41:13 UTC] PHP   5. WP_Hook->apply_filters() C:\Users\User\Local Sites\elementor\app\public\wp-includes\class-wp-hook.php:311
+[02-Oct-2020 14:41:13 UTC] PHP   6. TGM_Plugin_Activation->install_plugins_page() C:\Users\User\Local Sites\elementor\app\public\wp-includes\class-wp-hook.php:287
+[02-Oct-2020 14:41:13 UTC] PHP   7. TGM_Plugin_Activation->do_plugin_install() C:\Users\User\Local Sites\elementor\app\public\wp-content\themes\oceanwp\inc\plugins\class-tgm-plugin-activation.php:658
+[02-Oct-2020 14:41:13 UTC] PHP   8. TGM_Plugin_Activation->activate_single_plugin() C:\Users\User\Local Sites\elementor\app\public\wp-content\themes\oceanwp\inc\plugins\class-tgm-plugin-activation.php:818
+[02-Oct-2020 14:41:13 UTC] PHP   9. activate_plugin() C:\Users\User\Local Sites\elementor\app\public\wp-content\themes\oceanwp\inc\plugins\class-tgm-plugin-activation.php:957
+[02-Oct-2020 14:41:13 UTC] PHP  10. do_action() C:\Users\User\Local Sites\elementor\app\public\wp-admin\includes\plugin.php:699
+[02-Oct-2020 14:41:13 UTC] PHP  11. WP_Hook->do_action() C:\Users\User\Local Sites\elementor\app\public\wp-includes\plugin.php:478
+[02-Oct-2020 14:41:13 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\User\Local Sites\elementor\app\public\wp-includes\class-wp-hook.php:311
+[02-Oct-2020 14:41:13 UTC] PHP  13. Ocean_Extra_Theme_Wizard::install() C:\Users\User\Local Sites\elementor\app\public\wp-includes\class-wp-hook.php:287
+[02-Oct-2020 14:41:13 UTC] PHP  14. wp_safe_redirect() C:\Users\User\Local Sites\elementor\app\public\wp-content\plugins\ocean-extra\includes\wizard\wizard.php:45
+[02-Oct-2020 14:41:13 UTC] PHP  15. wp_redirect() C:\Users\User\Local Sites\elementor\app\public\wp-includes\pluggable.php:1404
+[02-Oct-2020 14:41:13 UTC] PHP  16. header() C:\Users\User\Local Sites\elementor\app\public\wp-includes\pluggable.php:1296
+[02-Oct-2020 14:41:13 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\User\Local Sites\elementor\app\public\wp-includes\script-loader.php:1927) in C:\Users\User\Local Sites\elementor\app\public\wp-includes\pluggable.php on line 1299
+[02-Oct-2020 14:41:13 UTC] PHP Stack trace:
+[02-Oct-2020 14:41:13 UTC] PHP   1. {main}() C:\Users\User\Local Sites\elementor\app\public\wp-admin\themes.php:0
+[02-Oct-2020 14:41:13 UTC] PHP   2. require_once() C:\Users\User\Local Sites\elementor\app\public\wp-admin\themes.php:10
+[02-Oct-2020 14:41:13 UTC] PHP   3. do_action() C:\Users\User\Local Sites\elementor\app\public\wp-admin\admin.php:259
+[02-Oct-2020 14:41:13 UTC] PHP   4. WP_Hook->do_action() C:\Users\User\Local Sites\elementor\app\public\wp-includes\plugin.php:478
+[02-Oct-2020 14:41:13 UTC] PHP   5. WP_Hook->apply_filters() C:\Users\User\Local Sites\elementor\app\public\wp-includes\class-wp-hook.php:311
+[02-Oct-2020 14:41:14 UTC] PHP   6. TGM_Plugin_Activation->install_plugins_page() C:\Users\User\Local Sites\elementor\app\public\wp-includes\class-wp-hook.php:287
+[02-Oct-2020 14:41:14 UTC] PHP   7. TGM_Plugin_Activation->do_plugin_install() C:\Users\User\Local Sites\elementor\app\public\wp-content\themes\oceanwp\inc\plugins\class-tgm-plugin-activation.php:658
+[02-Oct-2020 14:41:14 UTC] PHP   8. TGM_Plugin_Activation->activate_single_plugin() C:\Users\User\Local Sites\elementor\app\public\wp-content\themes\oceanwp\inc\plugins\class-tgm-plugin-activation.php:818
+[02-Oct-2020 14:41:14 UTC] PHP   9. activate_plugin() C:\Users\User\Local Sites\elementor\app\public\wp-content\themes\oceanwp\inc\plugins\class-tgm-plugin-activation.php:957
+[02-Oct-2020 14:41:14 UTC] PHP  10. do_action() C:\Users\User\Local Sites\elementor\app\public\wp-admin\includes\plugin.php:699
+[02-Oct-2020 14:41:14 UTC] PHP  11. WP_Hook->do_action() C:\Users\User\Local Sites\elementor\app\public\wp-includes\plugin.php:478
+[02-Oct-2020 14:41:14 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\User\Local Sites\elementor\app\public\wp-includes\class-wp-hook.php:311
+[02-Oct-2020 14:41:14 UTC] PHP  13. Ocean_Extra_Theme_Wizard::install() C:\Users\User\Local Sites\elementor\app\public\wp-includes\class-wp-hook.php:287
+[02-Oct-2020 14:41:14 UTC] PHP  14. wp_safe_redirect() C:\Users\User\Local Sites\elementor\app\public\wp-content\plugins\ocean-extra\includes\wizard\wizard.php:45
+[02-Oct-2020 14:41:14 UTC] PHP  15. wp_redirect() C:\Users\User\Local Sites\elementor\app\public\wp-includes\pluggable.php:1404
+[02-Oct-2020 14:41:14 UTC] PHP  16. header() C:\Users\User\Local Sites\elementor\app\public\wp-includes\pluggable.php:1299
